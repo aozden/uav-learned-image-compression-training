@@ -1,0 +1,6 @@
+# Prerequisites for forRepo/src/*.py.
+compressai
+lpips
+numpy
+torch
+torchvision
