@@ -37,3 +37,16 @@ python src/cheng_anchor.py
 Trained encoder/decoder models, `metrics.csv`,
 `training_config.json`, and model ZIPs are written to `./output/`
 (or `YOUR_MODEL_EXPORT_DIR`).
+
+## References
+
+The Cheng2020 Anchor and Attention models are provided by
+[CompressAI](https://github.com/InterDigitalInc/CompressAI).
+
+If you use this code, please cite:
+
+- Z. Cheng, H. Sun, M. Takeuchi, and J. Katto, “Learned Image Compression with Discretized Gaussian Mixture Likelihoods and Attention Modules,” *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, pp. 7939–7948, 2020.
+
+- J. Bégaint, F. Racapé, S. Feltman, and A. Pushparaja, “CompressAI: a PyTorch Library and Evaluation Platform for End-to-End Compression Research,” *arXiv preprint arXiv:2011.03029*, 2020.
+
+- R. Zhang, P. Isola, A. A. Efros, E. Shechtman, and O. Wang, “The Unreasonable Effectiveness of Deep Features as a Perceptual Metric,” *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, pp. 586–595, 2018.
