@@ -1,4 +1,4 @@
-# Prerequisites for forRepo/src/*.py.
+# Prerequisites for /src/*.py.
 compressai
 lpips
 numpy
